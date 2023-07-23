@@ -1,0 +1,29 @@
+{
+  "name": "adam-millington-natours",
+  "version": "1.0.0",
+  "description": "Natuors landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w",
+    "compile:sass-once": "node-sass scss/main.scss css/style.css",
+    "start-parcel-watch": "parcel watch index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malefis/malefis-natours-project.git"
+  },
+  "keywords": [
+    "natours",
+    "advanced css and sass",
+    "adam millington"
+  ],
+  "author": "Adam Millington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malefis/malefis-natours-project/issues"
+  },
+  "homepage": "https://github.com/Malefis/malefis-natours-project#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
